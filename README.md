@@ -30,11 +30,20 @@ py -m streamlit run F:\GitHub\Streamlit-app-powered-by-openai\stock_prices.py
 
 # Preview
 
-That is the preview after ca. 2 hours of coding
+That is the preview after ca. 3 hours of work
 
 1. Preview
 
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview1.JPG "Preview 1")
 
+2. Preview
 
-2. 
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview2.JPG "Preview 2")
 
+3. Preview
+
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview3.JPG "Preview 3")
+
+4. Preview
+
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview2.JPG "Preview 4")
