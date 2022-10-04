@@ -2,6 +2,8 @@
  
 App that shows the stock prices in certain period of time. Part of the code were genereted by OpenAI. 
 
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/openai-preview.JPG "OpenAI playground")
+
 # How to run
 
 1. Install Streamlit 

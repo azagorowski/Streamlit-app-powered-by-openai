@@ -1,4 +1,4 @@
-# App which shows price for Google stock from 7/01/2022 to 7/15/2022
+# App which shows price for Google and Apple stocks from 9/21/2022 to 10/03/2022
 
 import streamlit as st
 import yfinance as yf
