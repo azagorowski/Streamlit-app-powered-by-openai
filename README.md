@@ -56,7 +56,7 @@ https://pypi.org/project/yfinance/
 
 ![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/api-key.JPG "API key")
 
-**9. Enjoy the app: **
+**9. Enjoy the app:**
 
 ![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview0.JPG "Enjoy!")
 

@@ -17,7 +17,7 @@ def app():
     if api_key:
 
         # Setting up the Title
-        st.title("Search for SP500 company and write down it's current closing stock price:")
+        st.title("Search for SP500 company and it's current closing stock price:")
 
         # st.write("---")
 
