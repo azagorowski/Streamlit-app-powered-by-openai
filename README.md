@@ -48,4 +48,4 @@ That is the preview after ca. 3 hours of work
 
 4. Preview
 
-![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview2.JPG "Preview 4")
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview4.JPG "Preview 4")
