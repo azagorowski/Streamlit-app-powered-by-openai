@@ -4,23 +4,31 @@ App that shows the stock prices in certain period of time. Part of the code were
 
 ![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/openai-preview.JPG "OpenAI playground")
 
-# How to run
+## How to run
 
 1. Install Streamlit 
 
+```bash
 https://docs.streamlit.io/library/get-started/installation
+```
 
 2. Insatll OpenAI
 
+```bash
 https://beta.openai.com/docs/api-reference?lang=python
+```
 
 3. Install plotly.express
 
+```bash
 https://pypi.org/project/plotly-express/
+```
 
 4. Insatll yfinance
 
+```bash
 https://pypi.org/project/yfinance/
+```
 
 5. Clone the repository
 
@@ -28,11 +36,13 @@ https://pypi.org/project/yfinance/
 
 In case of Windows you can use the following Command Prompt line with location to cloned repository for example:
 
+```bash
 py -m streamlit run F:\GitHub\Streamlit-app-powered-by-openai\stock_prices.py
+```
 
-# Preview
+## Preview
 
-That is the preview after ca. 3 hours of work
+That is the preview after ca. 2.5 hours of work
 
 1. Preview
 
