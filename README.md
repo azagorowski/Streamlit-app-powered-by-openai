@@ -30,15 +30,37 @@ https://pypi.org/project/plotly-express/
 https://pypi.org/project/yfinance/
 ```
 
+python -m pip install requests
+
 5. Clone the repository
 
-6. Open the project. 
-
-In case of Windows you can use the following Command Prompt line with location to cloned repository for example:
+6. (for Windows) In Command Prompt navigate into the project directory (for Windows), e.g.:
 
 ```bash
-py -m streamlit run F:\GitHub\Streamlit-app-powered-by-openai\stock_prices.py
+ cd /d F:\GitHub\Streamlit-app-powered-by-openai\Streamlit-app-powered-by-openai\
 ```
+
+7. Open the project. 
+
+(for Windows) Use the following Command Prompt line with location of cloned repository for example:
+
+```bash
+ py -m streamlit run stock_prices.py
+```
+
+or (in case you did not navigated to the repo path):
+
+```bash
+ py -m streamlit run F:\GitHub\Streamlit-app-powered-by-openai\stock_prices.py
+```
+
+8. Insert your [API key](https://beta.openai.com/account/api-keys) to the `APIkey` sidebar:
+
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/api-key.JPG "API key")
+
+9. Enjoy the app: 
+
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview0.JPG "Enjoy!")
 
 ## Preview
 

@@ -5,8 +5,11 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import Main
 
-st.title("Stock prices App")
+st.set_page_config(page_title="GPT-3 Stock prices App", page_icon=":rocket:", layout="wide")
+
+Main.app()
 
 st.markdown("""
     * Open: Opening stock price for the day
@@ -17,7 +20,7 @@ st.markdown("""
     * Volume: Number of shares traded for the day
 """)
 
-st.title("Google Stock Price")
+st.title("Historical Google Stock prices")
 
 @st.cache(persist=True)
 def load_data():
@@ -45,7 +48,7 @@ fig = px.bar(data, x=data.index, y="Volume")
 st.plotly_chart(fig)
 
 
-st.title("Apple Stock Price")
+st.title("Historical Apple Stock prices")
 
 @st.cache(persist=True)
 def load_data():
