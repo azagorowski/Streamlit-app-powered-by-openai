@@ -32,7 +32,7 @@ https://pypi.org/project/yfinance/
 
 **5. Clone the repository**
 
-**6. (for Windows) In Command Prompt navigate into the project directory (for Windows), e.g.:**
+**6. In Command Prompt navigate into the project directory (for Windows), e.g.:**
 
 ```bash
  cd /d F:\GitHub\Streamlit-app-powered-by-openai\Streamlit-app-powered-by-openai\
