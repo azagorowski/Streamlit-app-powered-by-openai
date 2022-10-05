@@ -30,8 +30,6 @@ https://pypi.org/project/plotly-express/
 https://pypi.org/project/yfinance/
 ```
 
-python -m pip install requests
-
 5. Clone the repository
 
 6. (for Windows) In Command Prompt navigate into the project directory (for Windows), e.g.:
