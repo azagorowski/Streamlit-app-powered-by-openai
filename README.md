@@ -52,11 +52,11 @@ https://pypi.org/project/yfinance/
  py -m streamlit run F:\GitHub\Streamlit-app-powered-by-openai\stock_prices.py
 ```
 
-**8. Insert your [API key](https://beta.openai.com/account/api-keys) to the `APIkey` sidebar:**
+**8. Insert your [API key](https://beta.openai.com/account/api-keys) to the `APIkey` sidebar**
 
 ![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/api-key.JPG "API key")
 
-**9. Enjoy the app:**
+**9. Enjoy the app**
 
 ![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview0.JPG "Enjoy!")
 

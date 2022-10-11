@@ -17,11 +17,11 @@ def app():
     if api_key:
 
         # Setting up the Title
-        st.title("Search for SP500 company and it's current closing stock price:")
+        st.title("Search for SP500 company and it's historical, current closing stock price or try to predict future stock price using GPT-3:")
 
         # st.write("---")
 
-        s_example = "Google (Alphabet Inc.) stock price on 5th October 2022"
+        s_example = "Google (Alphabet Inc.) stock price on 15th October 2023"
         input = st.text_area(
             "Use the example below or input your own company name and date",
             value=s_example,
