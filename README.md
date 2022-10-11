@@ -64,7 +64,7 @@ https://pypi.org/project/yfinance/
 
 - Update 11-Oct-2011:
 
-App's now shows the latest data from yfinance:
+App now shows the latest data from yfinance:
 
 **1.1 Preview**
 
