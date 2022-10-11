@@ -5,6 +5,7 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from datetime import date
 import Main
 
 st.set_page_config(page_title="GPT-3 Stock prices App", page_icon=":rocket:", layout="wide")
@@ -19,6 +20,39 @@ st.markdown("""
     * Adj Close: Adjusted closing stock price for the day
     * Volume: Number of shares traded for the day
 """)
+
+st.title("Current Google Stock prices")
+
+today = date.today()
+
+@st.cache(persist=True)
+def load_data():
+    data = yf.download('GOOGL', start="2022-10-04", end=today.strftime("%Y-%m-%d"))
+    return data
+
+data = load_data()
+
+d1 = today.strftime("%m/%d/%Y")
+
+st.markdown("""
+    #### Google Stock Price from 10/04/2022 to {}
+""".format(str(d1)))
+
+
+
+st.markdown("""
+    ### Closing Price
+""")
+
+fig = px.line(data, x=data.index, y="Close")
+st.plotly_chart(fig)
+
+st.markdown("""
+    ### Volume
+""")
+
+fig = px.bar(data, x=data.index, y="Volume")
+st.plotly_chart(fig)
 
 st.title("Historical Google Stock prices")
 
