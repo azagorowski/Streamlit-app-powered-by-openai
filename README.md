@@ -62,7 +62,18 @@ https://pypi.org/project/yfinance/
 
 ## Preview
 
-This is the preview after ca. 2.5 hours of work:
+- Update 11-Oct-2011:
+
+App's now shows the latest data from yfinance:
+
+**1.1 Preview**
+
+![alt text](https://raw.githubusercontent.com/azagorowski/Streamlit-app-powered-by-openai/main/img/preview5.JPG "Preview 5")
+
+
+
+
+- This is the preview after ca. 2.5 hours of work:
 
 **1. Preview**
 
